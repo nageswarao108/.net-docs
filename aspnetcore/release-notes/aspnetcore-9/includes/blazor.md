@@ -218,3 +218,12 @@ The <xref:Microsoft.AspNetCore.Components.Forms.InputNumber%601> component now s
     }
 }
 ```
+
+### Client-side request streaming
+
+For Chromium-based browsers (for example, Google Chrome and Microsoft Edge) using the HTTP/2 protocol, [CORS](xref:security/cors), and HTTPS, client-side Blazor uses [Streams API](https://developer.mozilla.org/docs/Web/API/Streams_API) to permit [request streaming](https://developer.chrome.com/docs/capabilities/web-apis/fetch-streaming-requests).
+
+For more information, see the following resources:
+
+* <xref:blazor/call-web-api?view=aspnetcore-9.0#client-side-request-streaming>
+* <xref:blazor/file-uploads?view=aspnetcore-9.0#file-size-read-and-upload-limits>
